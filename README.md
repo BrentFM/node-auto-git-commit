@@ -1,9 +1,9 @@
-# auto_commit
+# node-auto-git-commit
 
 ## Usage:
 
-- **commit.js (All files)**: This script automates the process of adding and committing changes in your repository. It runs `git add .` followed by `git commit` with an auto-generated message.
-- **commit2.js (Individual / Specific files)**: This script is for committing already staged changes. It only runs `git commit` with an auto-generated message. Make sure to run `git add <file_name>` for the specific files you want to commit before using this script.
+- **node c-all.js**: This script automates the process of adding and committing changes in your repository (All files). It runs `git add .` followed by `git commit` with an auto-generated message.
+- **node c-part.js**: This script is for committing already staged changes (Individual / Specific files). It only runs `git commit` with an auto-generated message. Make sure to run `git add <file_name>` for the specific files you want to commit before using this script.
 
 The general commit message format is "Auto-commit: Updated # files". You can modify this message by editing the `generateCommitMessage` function in both scripts.
 
